@@ -1,0 +1,21 @@
+{
+  "name": "code-ninja",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -p 8080 -c-1",
+    "serve": "browser-sync start --server --files '**/*' -- port 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "phaser": "^3.60.0"
+  }
+}
